@@ -79,13 +79,9 @@ public class Language_evaluation {
 				System.out.println("Sorry, you have to retake the exam.");
 			
 			keyboard.close();
-			
-					
-			
+				
 		}
-			
-			
-		
+				
 	}
 
 }
