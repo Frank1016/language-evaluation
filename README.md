@@ -11,7 +11,7 @@ public class Language_evaluation {
 		Scanner keyboard = new Scanner(System.in);
 		
 		System.out.println("-------****-------****-------****-------****-----****-----");
-		System.out.println("      Welcome to Concordia Language Proficiency Evaluator!");
+		System.out.println("      Welcome to XXX Language Proficiency Evaluator!");
 		System.out.println("                based on IELTS exam");
 		System.out.println("-------****-------****-------****-------****-----****-----");
 
@@ -56,7 +56,7 @@ public class Language_evaluation {
 			//the following "if" does the rounding work for overall score
 			if (difference>=0&&difference <0.25)
 				overall=integer_part;
-  		    else if (difference>=0.25&&difference<0.75)
+  		        else if (difference>=0.25&&difference<0.75)
 				overall=integer_part+0.5;
 			else if (difference>=0.75&&difference<1)
 				overall=integer_part+1;
